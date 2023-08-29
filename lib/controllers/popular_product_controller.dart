@@ -25,6 +25,7 @@ class PopularProductController extends GetxController {
     if (response.statusCode == 200) {
       _popularProductlist = [];
       _popularProductlist.addAll(Product.fromJson(response.body).products);
+      print(" got popular product");
       _isLoaded = true;
       update();
     } else {

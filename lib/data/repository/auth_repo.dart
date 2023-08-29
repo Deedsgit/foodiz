@@ -16,7 +16,7 @@ class AuthRepo {
 
   bool userLoggedIn() {
     return sharedPreferences.containsKey(AppConstants.TOKEN);
-  }  
+  }
 
   Future<String> getUserToken() async {
     return sharedPreferences.getString(AppConstants.TOKEN) ?? "";

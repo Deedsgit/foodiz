@@ -2,7 +2,7 @@ class AppConstants {
   static const String APP_NAME = "Foody";
   static const int APP_VERSION = 1;
 
-  static const String BASE_URL = "http://192.168.1.2:8000";
+  static const String BASE_URL = "http://192.168.1.4:8000";
   static const String POPULAR_PRODUCT_URL = "/api/v1/products/popular";
   static const String RECOMMENDED_PRODUCT_URL = "/api/v1/products/recommended";
   static const String UPLOAD_URL = "/uploads/";
