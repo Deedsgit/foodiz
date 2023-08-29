@@ -25,11 +25,10 @@ class SignInPage extends StatelessWidget {
       String password = passwordController.text.trim();
 
       if (email.isEmpty) {
-        showCustomSnackBar("Type in your email address",
-            title: "Email address");
-      } else if (!GetUtils.isEmail(email)) {
-        showCustomSnackBar("Type in a valid email address",
-            title: "Valid email address");
+        showCustomSnackBar("Type in your Phone number", title: "Phone");
+      } else if (!GetUtils.isPhoneNumber(email)) {
+        showCustomSnackBar("Type in a valid phone number",
+            title: "InValid phone");
       } else if (password.isEmpty) {
         showCustomSnackBar("Type in your password", title: "password");
       } else if (password.length < 6) {
@@ -106,8 +105,8 @@ class SignInPage extends StatelessWidget {
                         height: Dimensions.height20,
                       ),
                       AppTextField(
-                          hintText: "Email",
-                          icon: Icons.email,
+                          hintText: "Phone",
+                          icon: Icons.phone,
                           textController: emailController),
                       SizedBox(
                         height: Dimensions.height20,
