@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:foody/controllers/cart_controller.dart';
 import 'package:foody/data/repository/popular_product_repo.dart';
 import 'package:foody/models/cart_model.dart';
-// import 'package:foody/data/repository/cart_repo.dart';
 import 'package:foody/models/products_model.dart';
 import 'package:get/get.dart';
 

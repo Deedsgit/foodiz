@@ -1,6 +1,5 @@
-// import 'package:foody/data/repository/popular_product_repo.dart';
+
 import 'package:foody/data/repository/recoommended_product_repo.dart';
-// import 'package:foody/models/cart_model.dart';
 import 'package:foody/models/products_model.dart';
 import 'package:get/get.dart';
 
